@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>Relógio</title>
+</head>
+<body id="a">
+    <aside>
+        <div id="botao__fechar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+            </svg>
+        </div>
+        <h2>O que gostaria de fazer hoje?</h2>
+        <nav>
+            <ul type="none">
+                <a href="https://www.youtube.com/" target="_blank"><li><img class="icone__link" src="https://www.youtube.com/favicon.ico" alt="logo"> YouTube</li></a>
+                <a href="https://www.facebook.com/" target="_blank"><li><img class="icone__link" src="https://www.facebook.com/favicon.ico" alt="logo"> Facebook</li> </a>
+                <a href="https://github.com" target="_blank"><li><img class="icone__link" src="https://github.com/favicon.ico" alt="logo"> Github</li> </a>
+            </ul>
+        </nav>
+        <!-- <div id="inputs">
+            <input type="text" placeholder="Adicionar link">
+            <input type="submit" value=" + ">
+        </div> -->
+    </aside>
+    <header>
+        <div class="menu__exibir">
+            <span id="barra__menu__um"></span>
+            <span id="barra__menu__dois"></span>
+            <span id="barra__menu__tres"></span>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1></h1>
+            <p class="exibir__data"></p>
+            <div>
+                <p id="local"></p>
+                <div id="exibir__clima">
+                    <p id="temperatura"></p>
+                    <div>
+                        <img class="icone" alt="icone clima">
+                    </div>
+                </div>
+                <p id="clima"></p>
+            </div>
+            <p id="exibir__frase"><q class="exibir__citacao"></q></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
