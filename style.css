@@ -211,6 +211,10 @@ p#exibir__frase{
         font-size: 4.7rem;
     }
 
+    aside{
+    width: 200px;
+    }
+
     p{
         font-size: 1rem; 
     }
